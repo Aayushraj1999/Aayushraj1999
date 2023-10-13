@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req,res,next)=> {
-    console.log('In another middleware!');
+    console.log('In Another middleware!');
     res.send('<h1> hello from express </h2>');
 });
 
